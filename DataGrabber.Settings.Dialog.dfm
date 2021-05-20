@@ -745,7 +745,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 31
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'Float'
             FocusControl = btnFloatColor
@@ -776,7 +776,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 59
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'String'
             FocusControl = btnStringColor
@@ -807,7 +807,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 87
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'Memo'
             FocusControl = btnMemoColor
@@ -838,7 +838,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 115
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'Date'
             FocusControl = btnDateColor
@@ -869,7 +869,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 143
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'Time'
             FocusControl = btnTimeColor
@@ -900,7 +900,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 171
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'DateTime'
             FocusControl = btnDateTimeColor
@@ -931,7 +931,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 199
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'NULL'
             FocusControl = btnNullColor
@@ -962,7 +962,7 @@ object frmSettingsDialog: TfrmSettingsDialog
             Left = 3
             Top = 227
             Width = 54
-            Height = 22
+            Height = 25
             Align = alClient
             Caption = 'Boolean'
             FocusControl = btnBooleanColor
@@ -1503,7 +1503,7 @@ object frmSettingsDialog: TfrmSettingsDialog
     Left = 16
     Top = 200
     Bitmap = {
-      494C010119003000180010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C0101190030001C0010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000007000000001002000000000000070
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -2443,11 +2443,12 @@ object frmSettingsDialog: TfrmSettingsDialog
     Options.AutoDetectLineLimit = 0
     Options.Visible = False
     CommentAttri.Foreground = clMedGray
+    CommentAttri.Style = []
     KeyAttri.Foreground = clBlue
     NumberAttri.Foreground = clRed
-    NumberAttri.Style = [fsBold, fsItalic]
+    NumberAttri.Style = [fsBold]
     StringAttri.Foreground = clGreen
-    StringAttri.Style = [fsBold, fsItalic]
+    StringAttri.Style = [fsBold]
     SymbolAttri.Foreground = clRed
     SymbolAttri.Style = [fsBold]
     Left = 95
@@ -2458,14 +2459,15 @@ object frmSettingsDialog: TfrmSettingsDialog
     Options.AutoDetectLineLimit = 0
     Options.Visible = False
     CommentAttri.Foreground = clMedGray
+    CommentAttri.Style = []
     SectionAttri.Foreground = clMaroon
     SectionAttri.Style = [fsBold, fsUnderline]
     KeyAttri.Foreground = clBlue
     KeyAttri.Style = [fsBold]
     NumberAttri.Foreground = clRed
-    NumberAttri.Style = [fsBold, fsItalic]
+    NumberAttri.Style = [fsBold]
     StringAttri.Foreground = clGreen
-    StringAttri.Style = [fsBold, fsItalic]
+    StringAttri.Style = [fsBold]
     SymbolAttri.Foreground = clRed
     SymbolAttri.Style = [fsBold]
     Left = 14
